@@ -9,3 +9,6 @@ and the function name is "fullUpload".
 
 
 Also check the "package.json" file once to make sure you have added all the dependencies in your pc.
+
+you use this command to get the repository in your pc:
+$ git clone https://github.com/cs11802354/CRUD-API.git
