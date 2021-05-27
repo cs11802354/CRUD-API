@@ -8,4 +8,4 @@ This should be done in the infoController.ts file which is inside the src/contro
 and the function name is "fullUpload".
 
 
-
+Also check the "package.json" file once to make sure you have added all the dependencies in your pc.
