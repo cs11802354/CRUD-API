@@ -17,7 +17,8 @@ app.post("/info/:id", infoController.updateInfo);
 app.put("/info", infoController.addInfo);
 app.put("/upload",infoController.fullUpload);
 app.delete("/info/:id", infoController.deleteInfo);
-
+// for authentication. we will put url like this "http://localhost:3000/authentication?username==manish&&password==abcd"
+app.get("/authentication", infoController.auth);
 /*starts the server, there is also a call back which will print the url on which
 the application is running. it will print this message on terminal*/
 app.listen(app.get("port"),()=>{
